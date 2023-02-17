@@ -1,10 +1,6 @@
-fromsetuptools import setup, find_packages
+from setuptools import setup, find_packages
 import codecs
 import os
-
-
-
-
 
 
 VERSION = '0.0.13'
@@ -19,9 +15,8 @@ setup(
     author_email="<eleanjulian@gmail.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=long_description,
     packages=find_packages(),
-    install_requires=['numpy'],
+    install_requires=['networkx'],
     keywords=['python', 'IA', 'bayes'],
     classifiers=[
         "Development Status :: 1 - Planning",
