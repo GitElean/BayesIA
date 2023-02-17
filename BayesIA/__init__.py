@@ -1,2 +1,3 @@
 
-from Redes import nodo
+from Redes import Node
+from redes import BayesianNetwork
